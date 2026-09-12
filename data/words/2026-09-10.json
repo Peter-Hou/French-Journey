@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-09-10-001",
+    "dateAdded": "2026-09-10",
+    "word": "ouvrir",
+    "gender": "v",
+    "english": "to open",
+    "chinese": "打开",
+    "examples": [
+      {
+        "french": "Je peux ouvrir la fenêtre.",
+        "english": "I can open the window."
+      }
+    ],
+    "source": {
+      "raw": "src: l-t-4-q1",
+      "type": "listening",
+      "test": 4,
+      "question": 1
+    },
+    "tags": ["daily-life"]
+  },
+  {
+    "id": "2026-09-10-002",
+    "dateAdded": "2026-09-10",
+    "word": "courrier",
+    "gender": "m",
+    "english": "mail / post",
+    "chinese": "邮件 / 邮政",
+    "examples": [
+      {
+        "french": "J'ai reçu un courrier important.",
+        "english": "I received an important letter."
+      }
+    ],
+    "source": {
+      "raw": "src: r-t-5-q9",
+      "type": "reading",
+      "test": 5,
+      "question": 9
+    },
+    "tags": ["school"]
+  }
+]

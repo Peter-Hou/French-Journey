@@ -4,7 +4,7 @@
 
 * **Hosting:** Static hosting via **GitHub Pages**.
 * **Tech Stack:** Vanilla HTML/CSS/JavaScript (or lightweight Vite + React/Tailwind) so it deploys with zero backend costs and works on mobile/desktop.
-* **Data Storage:** Static JSON files located in a `/data` folder in the repository (`words.json` and `daily_stats.json`). Updates are made via commits or editing directly on GitHub.
+* **Data Storage:** Static JSON files located in a `/data` folder in the repository. Vocabulary is split into per-day files under `/data/words/` plus an `/data/words/index.json` manifest, and study totals stay in `/data/daily_stats.json`. Updates are made via commits or editing directly on GitHub.
 * **Key Features:**
 * Interactive flashcard practice with multi-language hints (EN/ZH) and source tags.
 * Activity contribution calendar (GitHub-style heat map) reflecting daily vocabulary counts.
@@ -16,7 +16,19 @@
 
 #### 2. Data Schemas
 
-**`data/words.json`**
+**`data/words/index.json`**
+
+```json
+[
+  "2026-09-08.json",
+  "2026-09-09.json",
+  "2026-09-10.json",
+  "2026-09-11.json",
+  "2026-09-12.json"
+]
+```
+
+**`data/words/2026-09-12.json`**
 
 ```json
 [
@@ -35,14 +47,13 @@
     ],
     "source": {
       "raw": "src: l-t-5-q6",
-      "type": "listening", // "listening" if 'l', "reading" if 'r'
+      "type": "listening",
       "test": 5,
       "question": 6
     },
     "tags": ["weather"]
   }
 ]
-
 ```
 
 **`data/daily_stats.json`**

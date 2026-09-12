@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-09-08-001",
+    "dateAdded": "2026-09-08",
+    "word": "énergie",
+    "gender": "f",
+    "english": "energy",
+    "chinese": "能量",
+    "examples": [
+      {
+        "french": "L'énergie du matin est excellente.",
+        "english": "The energy in the morning is excellent."
+      }
+    ],
+    "source": {
+      "raw": "src: l-t-2-q3",
+      "type": "listening",
+      "test": 2,
+      "question": 3
+    },
+    "tags": ["nature"]
+  },
+  {
+    "id": "2026-09-08-002",
+    "dateAdded": "2026-09-08",
+    "word": "voiture",
+    "gender": "f",
+    "english": "car",
+    "chinese": "汽车",
+    "examples": [
+      {
+        "french": "J'ai acheté une voiture électrique.",
+        "english": "I bought an electric car."
+      }
+    ],
+    "source": {
+      "raw": "src: r-t-4-q6",
+      "type": "reading",
+      "test": 4,
+      "question": 6
+    },
+    "tags": ["transport"]
+  }
+]

@@ -32,12 +32,20 @@ const LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
 
 async function init() {
   try {
-    const [wordsResponse, statsResponse] = await Promise.all([
-      fetch('./data/words.json'),
+    const [wordsIndexResponse, statsResponse] = await Promise.all([
+      fetch('./data/words/index.json'),
       fetch('./data/daily_stats.json'),
     ]);
 
-    const words = await wordsResponse.json();
+    const dateFiles = await wordsIndexResponse.json();
+    const words = [];
+
+    for (const dateFile of dateFiles) {
+      const response = await fetch(`./data/words/${dateFile}`);
+      const dailyWords = await response.json();
+      words.push(...dailyWords);
+    }
+
     const dailyStats = await statsResponse.json();
 
     state.words = words;

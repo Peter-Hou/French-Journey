@@ -25,5 +25,6 @@ Then open:
 - http://127.0.0.1:8000/French-Journey/
 
 ## Data files
-- data/words.json — vocabulary entries and examples.
+- data/words/ — per-day vocabulary JSON files keyed by date, such as 2026-09-12.json.
+- data/words/index.json — manifest that lists the available daily word files.
 - data/daily_stats.json — study-day aggregates.

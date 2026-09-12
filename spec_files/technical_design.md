@@ -18,7 +18,8 @@ This project is a static GitHub Pages web application for tracking French vocabu
 - `src/data-utils.js` contains pure logic for data aggregation and transformations.
 
 ### Data layer
-- `/data/words.json`: all vocabulary entries.
+- `/data/words/`: one JSON file per day, each containing the words added on that particular date.
+- `/data/words/index.json`: manifest listing the available daily word files.
 - `/data/daily_stats.json`: daily study aggregates.
 - Data is fetched with `fetch()` at runtime and kept in memory for the session.
 

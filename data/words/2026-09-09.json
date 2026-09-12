@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-09-09-001",
+    "dateAdded": "2026-09-09",
+    "word": "joyeux",
+    "gender": "adj",
+    "english": "happy",
+    "chinese": "开心的",
+    "examples": [
+      {
+        "french": "Ils sont joyeux après la bonne nouvelle.",
+        "english": "They are happy after the good news."
+      }
+    ],
+    "source": {
+      "raw": "src: l-t-1-q5",
+      "type": "listening",
+      "test": 1,
+      "question": 5
+    },
+    "tags": ["emotion"]
+  },
+  {
+    "id": "2026-09-09-002",
+    "dateAdded": "2026-09-09",
+    "word": "jardin",
+    "gender": "m",
+    "english": "garden",
+    "chinese": "花园",
+    "examples": [
+      {
+        "french": "Le jardin est très bien entretenu.",
+        "english": "The garden is very well maintained."
+      }
+    ],
+    "source": {
+      "raw": "src: r-t-3-q7",
+      "type": "reading",
+      "test": 3,
+      "question": 7
+    },
+    "tags": ["home"]
+  }
+]

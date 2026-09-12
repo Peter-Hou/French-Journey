@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-09-11-001",
+    "dateAdded": "2026-09-11",
+    "word": "ville",
+    "gender": "f",
+    "english": "city",
+    "chinese": "城市",
+    "examples": [
+      {
+        "french": "Cette ville est très animée.",
+        "english": "This city is very lively."
+      }
+    ],
+    "source": {
+      "raw": "src: l-t-3-q8",
+      "type": "listening",
+      "test": 3,
+      "question": 8
+    },
+    "tags": ["travel"]
+  },
+  {
+    "id": "2026-09-11-002",
+    "dateAdded": "2026-09-11",
+    "word": "doux",
+    "gender": "adj",
+    "english": "gentle / soft",
+    "chinese": "温和的 / 柔和的",
+    "examples": [
+      {
+        "french": "Un climat doux en hiver.",
+        "english": "A mild climate in winter."
+      }
+    ],
+    "source": {
+      "raw": "src: r-t-1-q2",
+      "type": "reading",
+      "test": 1,
+      "question": 2
+    },
+    "tags": ["weather"]
+  }
+]
