@@ -30,6 +30,26 @@ const refs = {
 
 const LEVELS = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
 
+function aggregateDailyStats(dailyStats) {
+  const summary = {
+    listening: { a1: 0, a2: 0, b1: 0, b2: 0, c1: 0, c2: 0 },
+    reading: { a1: 0, a2: 0, b1: 0, b2: 0, c1: 0, c2: 0 },
+  };
+
+  if (!Array.isArray(dailyStats)) {
+    return summary;
+  }
+
+  dailyStats.forEach((entry) => {
+    LEVELS.forEach((level) => {
+      summary.listening[level] += Number(entry.listeningQuestions?.[level] ?? 0);
+      summary.reading[level] += Number(entry.readingQuestions?.[level] ?? 0);
+    });
+  });
+
+  return summary;
+}
+
 async function init() {
   try {
     const [wordsIndexResponse, statsResponse] = await Promise.all([
@@ -145,11 +165,12 @@ function bindEvents() {
 }
 
 function renderDashboard() {
-  const summary = summarizeQuestionBreakdown(state.words);
+  const summary = aggregateDailyStats(state.dailyStats);
   const totalListening = Object.values(summary.listening).reduce((sum, value) => sum + value, 0);
   const totalReading = Object.values(summary.reading).reduce((sum, value) => sum + value, 0);
   const todayKey = new Date().toISOString().slice(0, 10);
-  const todayWords = state.dailyCounts[todayKey] ?? 0;
+  const todayEntry = state.dailyStats.find((entry) => entry.date === todayKey);
+  const todayWords = todayEntry ? Number(todayEntry.wordsAddedCount ?? 0) : (state.dailyCounts[todayKey] ?? 0);
 
   refs.todayWords.textContent = todayWords;
   refs.listeningTotal.textContent = totalListening;
