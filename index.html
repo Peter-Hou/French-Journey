@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>French Journey</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">TCF Vocabulary</p>
+          <h1>French Journey</h1>
+        </div>
+        <div class="stats-grid" aria-label="Daily study metrics">
+          <div class="stat-card">
+            <span class="stat-label">Today's words</span>
+            <strong id="today-words">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Listening</span>
+            <strong id="listening-total">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Reading</span>
+            <strong id="reading-total">0</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel flashcard-panel" aria-labelledby="flashcards-title">
+          <div class="panel-header">
+            <h2 id="flashcards-title">Flashcards</h2>
+            <div class="panel-actions">
+              <button id="speak-btn" class="secondary-btn" type="button">🔊 Speak</button>
+            </div>
+          </div>
+
+          <div id="flashcard" class="flashcard" tabindex="0" aria-live="polite">
+            <div class="card-inner" id="card-inner">
+              <div class="card-face card-front" id="card-front"></div>
+              <div class="card-face card-back" id="card-back"></div>
+            </div>
+          </div>
+
+          <div class="controls">
+            <button id="prev-btn" type="button">← Previous</button>
+            <button id="flip-btn" class="primary-btn" type="button">Flip</button>
+            <button id="next-btn" type="button">Next →</button>
+          </div>
+        </section>
+
+        <section class="panel dashboard-panel" aria-labelledby="dashboard-title">
+          <div class="panel-header">
+            <h2 id="dashboard-title">Study Dashboard</h2>
+          </div>
+
+          <div class="heatmap-wrapper">
+            <div id="heatmap" class="heatmap" aria-label="Contribution calendar"></div>
+          </div>
+
+          <div class="legend" aria-label="Heatmap legend">
+            <span>0</span>
+            <span class="legend-swatch heatmap-empty"></span>
+            <span class="legend-swatch heatmap-level-1"></span>
+            <span class="legend-swatch heatmap-level-2"></span>
+            <span class="legend-swatch heatmap-level-3"></span>
+            <span>11+</span>
+          </div>
+
+          <div class="summary-table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Level</th>
+                  <th>Listening</th>
+                  <th>Reading</th>
+                </tr>
+              </thead>
+              <tbody id="question-summary-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
