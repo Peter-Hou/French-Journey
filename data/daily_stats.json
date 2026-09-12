@@ -1,37 +1,37 @@
 [
   {
     "date": "2026-09-12",
-    "wordsAddedCount": 2,
+    "wordsAddedCount": 0,
     "listeningQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
-    "readingQuestions": { "a1": 0, "a2": 1, "b1": 0, "b2": 1, "c1": 0, "c2": 0 },
+    "readingQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
     "notes": "Focused on weather and city vocabulary."
   },
   {
     "date": "2026-09-11",
-    "wordsAddedCount": 2,
-    "listeningQuestions": { "a1": 0, "a2": 0, "b1": 1, "b2": 0, "c1": 0, "c2": 0 },
-    "readingQuestions": { "a1": 1, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
+    "wordsAddedCount": 0,
+    "listeningQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
+    "readingQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
     "notes": "Reviewed urban culture vocabulary."
   },
   {
     "date": "2026-09-10",
-    "wordsAddedCount": 2,
-    "listeningQuestions": { "a1": 0, "a2": 0, "b1": 1, "b2": 0, "c1": 0, "c2": 0 },
-    "readingQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 1, "c1": 0, "c2": 0 },
+    "wordsAddedCount": 0,
+    "listeningQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
+    "readingQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
     "notes": "Daily routine and mail-related words."
   },
   {
     "date": "2026-09-09",
-    "wordsAddedCount": 2,
-    "listeningQuestions": { "a1": 1, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
-    "readingQuestions": { "a1": 0, "a2": 0, "b1": 1, "b2": 0, "c1": 0, "c2": 0 },
+    "wordsAddedCount": 0,
+    "listeningQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
+    "readingQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
     "notes": "Emotion and home vocabulary."
   },
   {
     "date": "2026-09-08",
-    "wordsAddedCount": 2,
-    "listeningQuestions": { "a1": 0, "a2": 1, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
-    "readingQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 1, "c1": 0, "c2": 0 },
+    "wordsAddedCount": 0,
+    "listeningQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
+    "readingQuestions": { "a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0 },
     "notes": "Energy and transport vocabulary."
   }
 ]
