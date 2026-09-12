@@ -1,6 +1,6 @@
 import unittest
 
-from src.data_utils import get_daily_word_counts, summarize_question_breakdown, build_heat_map_data
+from src.data_utils import get_daily_word_counts, summarize_question_breakdown, build_heat_map_data, build_level_trend_data
 
 
 class DataUtilsTests(unittest.TestCase):
@@ -39,6 +39,18 @@ class DataUtilsTests(unittest.TestCase):
         self.assertEqual(result[0]["count"], 0)
         self.assertEqual(result[-1]["count"], 11)
         self.assertEqual(result[-2]["count"], 5)
+
+    def test_builds_level_trend_data(self):
+        stats = [
+            {"date": "2026-09-10", "listeningQuestions": {"a1": 1, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0}, "readingQuestions": {"a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0}},
+            {"date": "2026-09-11", "listeningQuestions": {"a1": 2, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0}, "readingQuestions": {"a1": 0, "a2": 0, "b1": 0, "b2": 0, "c1": 0, "c2": 0}},
+        ]
+
+        result = build_level_trend_data(stats, "listeningQuestions")
+
+        self.assertEqual(result[0]["level"], "a1")
+        self.assertEqual(result[0]["points"][0]["value"], 1)
+        self.assertEqual(result[0]["points"][1]["value"], 2)
 
 
 if __name__ == "__main__":

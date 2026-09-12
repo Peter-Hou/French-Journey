@@ -86,3 +86,25 @@ export function getHeatMapColor(count) {
   if (count >= 6 && count <= 10) return 'heatmap-level-2';
   return 'heatmap-level-3';
 }
+
+export function buildLevelTrendData(dailyStats, skill) {
+  if (!Array.isArray(dailyStats) || !skill) {
+    return [];
+  }
+
+  return LEVELS.map((level) => ({
+    level,
+    color: {
+      a1: '#60a5fa',
+      a2: '#34d399',
+      b1: '#fbbf24',
+      b2: '#f472b6',
+      c1: '#a78bfa',
+      c2: '#fb7185',
+    }[level],
+    points: dailyStats.map((entry) => ({
+      date: entry.date,
+      value: Number(entry?.[skill]?.[level] ?? 0),
+    })),
+  }));
+}

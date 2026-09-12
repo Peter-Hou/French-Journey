@@ -1,8 +1,8 @@
 import {
   buildHeatMapData,
+  buildLevelTrendData,
   getDailyWordCounts,
   getHeatMapColor,
-  summarizeQuestionBreakdown,
 } from './src/data-utils.js';
 
 const state = {
@@ -10,6 +10,10 @@ const state = {
   dailyCounts: {},
   currentIndex: 0,
   flipped: false,
+  chartSelection: {
+    listening: 'all',
+    reading: 'all',
+  },
 };
 
 const refs = {
@@ -17,7 +21,7 @@ const refs = {
   listeningTotal: document.getElementById('listening-total'),
   readingTotal: document.getElementById('reading-total'),
   heatmap: document.getElementById('heatmap'),
-  summaryBody: document.getElementById('question-summary-body'),
+  trendPanels: document.getElementById('trend-panels'),
   flashcard: document.getElementById('flashcard'),
   cardFront: document.getElementById('card-front'),
   cardBack: document.getElementById('card-back'),
@@ -106,6 +110,16 @@ function bindEvents() {
     renderFlashcard();
   });
 
+  document.addEventListener('click', (event) => {
+    const toggle = event.target.closest('.level-toggle');
+    if (!toggle) return;
+
+    const skill = toggle.dataset.skill;
+    const level = toggle.dataset.level;
+    state.chartSelection[skill] = state.chartSelection[skill] === level ? 'all' : level;
+    renderDashboard();
+  });
+
   document.addEventListener('keydown', (event) => {
     if (event.key === ' ' || event.key === 'Enter') {
       event.preventDefault();
@@ -176,14 +190,6 @@ function renderDashboard() {
   refs.listeningTotal.textContent = totalListening;
   refs.readingTotal.textContent = totalReading;
 
-  refs.summaryBody.innerHTML = LEVELS.map((level) => `
-    <tr>
-      <td>${level.toUpperCase()}</td>
-      <td>${summary.listening[level] ?? 0}</td>
-      <td>${summary.reading[level] ?? 0}</td>
-    </tr>
-  `).join('');
-
   const heatMapData = buildHeatMapData(state.dailyCounts, todayKey);
   refs.heatmap.innerHTML = heatMapData.map((day) => {
     const cellClass = getHeatMapColor(day.count);
@@ -193,6 +199,80 @@ function renderDashboard() {
       aria-label="${day.date}: ${day.count} words added"
       ></span>`;
   }).join('');
+
+  refs.trendPanels.innerHTML = ['listening', 'reading'].map((skill) => renderTrendChart(skill)).join('');
+}
+
+function renderTrendChart(skill) {
+  const selectedLevel = state.chartSelection[skill];
+  const series = buildLevelTrendData(state.dailyStats, `${skill}Questions`).filter((line) => {
+    return selectedLevel === 'all' || line.level === selectedLevel;
+  });
+
+  const labels = (state.dailyStats ?? []).map((entry) => entry.date);
+  const maxY = Math.max(
+    ...series.flatMap((line) => line.points.map((point) => point.value)),
+    1,
+  );
+
+  const width = 620;
+  const height = 210;
+  const left = 42;
+  const top = 18;
+  const chartHeight = height - top - 36;
+  const chartWidth = width - left - 26;
+
+  const pathFor = (points) => points.map((point, index) => {
+    const x = left + (index / Math.max(points.length - 1, 1)) * chartWidth;
+    const y = top + chartHeight - (point.value / maxY) * chartHeight;
+    return `${index === 0 ? 'M' : 'L'} ${x} ${y}`;
+  }).join(' ');
+
+  const xTicks = labels.length > 0 ? labels.filter((_, index) => 
+    index === 0 || index === labels.length - 1 || index % Math.ceil(labels.length / 4) === 0
+  ) : [];
+
+  return `
+    <div class="trend-card">
+      <div class="trend-header">
+        <h3>${skill === 'listening' ? 'Listening questions' : 'Reading questions'}</h3>
+        <div class="level-toggle-group">
+          <button class="level-toggle ${selectedLevel === 'all' ? 'active' : ''}" data-skill="${skill}" data-level="all" type="button">All</button>
+          ${LEVELS.map((level) => `
+            <button class="level-toggle ${selectedLevel === level ? 'active' : ''}" data-skill="${skill}" data-level="${level}" type="button">${level.toUpperCase()}</button>
+          `).join('')}
+        </div>
+      </div>
+      <svg class="trend-svg" viewBox="0 0 ${width} ${height}" role="img" aria-label="${skill} question trend chart">
+        <g class="axis">
+          <line x1="${left}" y1="${top + chartHeight}" x2="${width - 20}" y2="${top + chartHeight}" stroke="rgba(148,163,184,0.7)" />
+          <line x1="${left}" y1="${top}" x2="${left}" y2="${top + chartHeight}" stroke="rgba(148,163,184,0.7)" />
+        </g>
+        ${Array.from({ length: 4 }, (_, index) => {
+          const value = Math.round((maxY / 3) * index);
+          const y = top + chartHeight - (value / maxY) * chartHeight;
+          return `
+            <g>
+              <line x1="${left}" y1="${y}" x2="${width - 20}" y2="${y}" stroke="rgba(148,163,184,0.18)" />
+              <text x="8" y="${y + 4}" fill="rgba(226,232,240,0.8)" font-size="10">${value}</text>
+            </g>
+          `;
+        }).join('')}
+        ${series.map((line) => `
+          <path d="${pathFor(line.points)}" fill="none" stroke="${line.color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+          ${line.points.map((point, index) => {
+            const x = left + (index / Math.max(line.points.length - 1, 1)) * chartWidth;
+            const y = top + chartHeight - (point.value / maxY) * chartHeight;
+            return `<circle cx="${x}" cy="${y}" r="3" fill="${line.color}" />`;
+          }).join('')}
+        `).join('')}
+        ${xTicks.map((date, index) => {
+          const x = left + ((labels.indexOf(date)) / Math.max(labels.length - 1, 1)) * chartWidth;
+          return `<text x="${x}" y="${height - 8}" fill="rgba(226,232,240,0.8)" font-size="10" text-anchor="middle">${date.slice(5)}</text>`;
+        }).join('')}
+      </svg>
+    </div>
+  `;
 }
 
 function renderFlashcard() {

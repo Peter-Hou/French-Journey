@@ -81,3 +81,27 @@ def build_heat_map_data(counts: Dict[str, int], end_date_text: str) -> List[Dict
         current += timedelta(days=1)
 
     return data
+
+
+def build_level_trend_data(daily_stats: List[Dict[str, Any]], skill: str) -> List[Dict[str, Any]]:
+    if not isinstance(daily_stats, list) or not skill:
+        return []
+
+    return [
+        {
+            "level": level,
+            "color": {
+                "a1": "#60a5fa",
+                "a2": "#34d399",
+                "b1": "#fbbf24",
+                "b2": "#f472b6",
+                "c1": "#a78bfa",
+                "c2": "#fb7185",
+            }[level],
+            "points": [
+                {"date": entry.get("date"), "value": int(entry.get(skill, {}).get(level, 0))}
+                for entry in daily_stats
+            ],
+        }
+        for level in LEVELS
+    ]
