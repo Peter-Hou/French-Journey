@@ -1,0 +1,482 @@
+[
+{
+"id": "2026-09-13-001",
+"dateAdded": "2026-09-13",
+"word": "tout seul",
+"gender": "phrase",
+"english": "alone; by oneself",
+"chinese": "独自一人",
+"examples": [
+{
+"french": "Je ne comprends rien et, tout seul, je n’y arrive pas.",
+"english": "I don’t understand anything, and by myself, I can’t manage it."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-002",
+"dateAdded": "2026-09-13",
+"word": "citron",
+"gender": "m",
+"english": "lemon",
+"chinese": "柠檬",
+"examples": [
+{
+"french": "Oui, fais-nous une tarte au citron.",
+"english": "Yes, make us a lemon tart."
+}
+],
+"tags": ["food"]
+},
+{
+"id": "2026-09-13-003",
+"dateAdded": "2026-09-13",
+"word": "après vous",
+"gender": "phrase",
+"english": "after you; after you, please",
+"chinese": "您先请",
+"examples": [
+{
+"french": "Après vous, je vous en prie.",
+"english": "After you, please, go ahead."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-004",
+"dateAdded": "2026-09-13",
+"word": "un instant",
+"gender": "phrase",
+"english": "one moment; just a moment",
+"chinese": "稍等一下",
+"examples": [
+{
+"french": "Un instant, ne quittez pas.",
+"english": "One moment, please hold."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-005",
+"dateAdded": "2026-09-13",
+"word": "essayer",
+"gender": "v",
+"english": "to try",
+"chinese": "尝试；试穿",
+"examples": [
+{
+"french": "Essaie une taille plus grande.",
+"english": "Try a larger size."
+}
+],
+"tags": ["daily-life", "shopping"]
+},
+{
+"id": "2026-09-13-006",
+"dateAdded": "2026-09-13",
+"word": "grec",
+"gender": "adj",
+"english": "Greek",
+"chinese": "希腊的",
+"examples": [
+{
+"french": "Nous allons dîner au restaurant grec ce soir.",
+"english": "We are going to have dinner at the Greek restaurant tonight."
+}
+],
+"tags": ["food", "travel"]
+},
+{
+"id": "2026-09-13-007",
+"dateAdded": "2026-09-13",
+"word": "laisser quelqu'un sans nouvelles",
+"gender": "phrase",
+"english": "to leave someone without news; to not contact someone for a while",
+"chinese": "断绝联系；很久不给某人信儿",
+"examples": [
+{
+"french": "Je suis désolée de t'avoir laissé sans nouvelles.",
+"english": "I'm sorry for leaving you without news."
+}
+],
+"tags": ["daily-life", "emotion"]
+},
+{
+"id": "2026-09-13-008",
+"dateAdded": "2026-09-13",
+"word": "se dérouler",
+"gender": "v",
+"english": "to unfold; to go/occur as planned",
+"chinese": "进行；展开；发生",
+"examples": [
+{
+"french": "Je pensais t'écrire de Fès, mais notre séjour ne s'est pas déroulé comme nous l'espérions.",
+"english": "I was planning to write to you from Fez, but our stay did not go as we had hoped."
+}
+],
+"tags": ["travel"]
+},
+{
+"id": "2026-09-13-009",
+"dateAdded": "2026-09-13",
+"word": "supplémentaire",
+"gender": "adj",
+"english": "additional; supplementary",
+"chinese": "额外的；附加的",
+"examples": [
+{
+"french": "Nous avons passé trois nuits supplémentaires à Tanger à cause d’un problème technique sur une de nos lignes touristiques.",
+"english": "We spent three extra nights in Tangier because of a technical problem on one of our tourist routes."
+}
+],
+"tags": ["travel"]
+},
+{
+"id": "2026-09-13-010",
+"dateAdded": "2026-09-13",
+"word": "régler",
+"gender": "v",
+"english": "to settle; to pay",
+"chinese": "支付；结清；解决",
+"examples": [
+{
+"french": "Nous devons régler les frais sur place.",
+"english": "We have to settle the fees on site."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-011",
+"dateAdded": "2026-09-13",
+"word": "frais",
+"gender": "m",
+"english": "expenses; costs",
+"chinese": "费用；开销",
+"examples": [
+{
+"french": "Nous devons nous rendre à Marrakech pour régler les frais.",
+"english": "We have to travel to Marrakech to settle the expenses."
+}
+],
+"tags": ["daily-life", "travel"]
+},
+{
+"id": "2026-09-13-012",
+"dateAdded": "2026-09-13",
+"word": "occasionné par cet incident",
+"gender": "phrase",
+"english": "caused by this incident",
+"chinese": "由这次意外事件引起的",
+"examples": [
+{
+"french": "Il faut régler les frais occasionnés par cet incident.",
+"english": "We must pay the expenses caused by this incident."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-013",
+"dateAdded": "2026-09-13",
+"word": "devoir",
+"gender": "v",
+"english": "to have to; must",
+"chinese": "必须；不得不",
+"examples": [
+{
+"french": "Nous avons aussi annulé le rendez-vous avec nos clients aujourd’hui, car nous avons dû nous rendre à Marrakech.",
+"english": "We also canceled the appointment with our clients today because we had to travel to Marrakech."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-014",
+"dateAdded": "2026-09-13",
+"word": "casser",
+"gender": "v",
+"english": "to break",
+"chinese": "打破；弄断",
+"examples": [
+{
+"french": "J’ai cassé ma raquette pendant le match.",
+"english": "I broke my racket during the match."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-015",
+"dateAdded": "2026-09-13",
+"word": "perdre",
+"gender": "v",
+"english": "to lose",
+"chinese": "丢失；失去",
+"examples": [
+{
+"french": "J’ai perdu mon maillot de bain à la plage.",
+"english": "I lost my swimsuit at the beach."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-016",
+"dateAdded": "2026-09-13",
+"word": "maillot",
+"gender": "m",
+"english": "swimsuit; jersey",
+"chinese": "泳衣；运动衫",
+"examples": [
+{
+"french": "N'oublie pas d'emporter ton maillot pour aller à la piscine.",
+"english": "Don't forget to pack your swimsuit to go to the pool."
+}
+],
+"tags": ["clothing", "daily-life"]
+},
+{
+"id": "2026-09-13-017",
+"dateAdded": "2026-09-13",
+"word": "ballon",
+"gender": "m",
+"english": "ball; balloon",
+"chinese": "球；气球",
+"examples": [
+{
+"french": "Les enfants jouent avec un ballon dans le jardin.",
+"english": "The children are playing with a ball in the garden."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-018",
+"dateAdded": "2026-09-13",
+"word": "avoir mal à",
+"gender": "phrase",
+"english": "to have pain in; to hurt",
+"chinese": "……部位疼痛",
+"examples": [
+{
+"french": "J'ai mal au ventre depuis ce matin.",
+"english": "I have had a stomach ache since this morning."
+}
+],
+"tags": ["health", "daily-life"]
+},
+{
+"id": "2026-09-13-019",
+"dateAdded": "2026-09-13",
+"word": "neveu",
+"gender": "m",
+"english": "nephew",
+"chinese": "侄子；外甥",
+"examples": [
+{
+"french": "Mon neveu vient d’avoir cinq ans. Quel cadeau est-ce que je peux lui offrir ?",
+"english": "My nephew just turned five. What gift can I give him?"
+}
+],
+"tags": ["family"]
+},
+{
+"id": "2026-09-13-020",
+"dateAdded": "2026-09-13",
+"word": "enseigner",
+"gender": "v",
+"english": "to teach",
+"chinese": "教；教导",
+"examples": [
+{
+"french": "Les parents pourront dialoguer avec le personnel enseignant pendant cette journée.",
+"english": "Parents will be able to talk with the teaching staff during this day."
+}
+],
+"tags": ["study"]
+},
+{
+"id": "2026-09-13-021",
+"dateAdded": "2026-09-13",
+"word": "tension",
+"gender": "f",
+"english": "blood pressure; tension",
+"chinese": "血压；紧张",
+"examples": [
+{
+"french": "On savait déjà que le chocolat était bon pour la tension.",
+"english": "We already knew that chocolate was good for blood pressure."
+}
+],
+"tags": ["health"]
+},
+{
+"id": "2026-09-13-022",
+"dateAdded": "2026-09-13",
+"word": "rayons du soleil",
+"gender": "phrase",
+"english": "sun's rays; sunlight",
+"chinese": "太阳光线；紫外线",
+"examples": [
+{
+"french": "Il faut protéger sa peau contre les rayons du soleil.",
+"english": "One must protect one's skin against the sun's rays."
+}
+],
+"tags": ["weather", "health"]
+},
+{
+"id": "2026-09-13-023",
+"dateAdded": "2026-09-13",
+"word": "efficace",
+"gender": "adj",
+"english": "effective; efficient",
+"chinese": "有效的；高效的",
+"examples": [
+{
+"french": "Les scientifiques affirment maintenant qu’une consommation de chocolat pourrait être une stratégie efficace de protection.",
+"english": "Scientists now claim that consuming chocolate could be an effective protection strategy."
+}
+],
+"tags": ["study", "daily-life"]
+},
+{
+"id": "2026-09-13-024",
+"dateAdded": "2026-09-13",
+"word": "contre",
+"gender": "prep",
+"english": "against",
+"chinese": "反对；对着；抵御",
+"examples": [
+{
+"french": "Cette crème offre une protection efficace contre le soleil.",
+"english": "This cream provides effective protection against the sun."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-025",
+"dateAdded": "2026-09-13",
+"word": "chercheur",
+"gender": "m",
+"english": "researcher",
+"chinese": "研究人员；学者",
+"examples": [
+{
+"french": "D’après les chercheurs, trois carrés de chocolat par jour suffiraient.",
+"english": "According to the researchers, three squares of chocolate a day would be enough."
+}
+],
+"tags": ["study"]
+},
+{
+"id": "2026-09-13-026",
+"dateAdded": "2026-09-13",
+"word": "recouvrir",
+"gender": "v",
+"english": "to cover",
+"chinese": "覆盖；涂满",
+"examples": [
+{
+"french": "Il n'est pas nécessaire de recouvrir son corps de cacao.",
+"english": "It is not necessary to cover one's body in cocoa."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-027",
+"dateAdded": "2026-09-13",
+"word": "bienfait",
+"gender": "m",
+"english": "benefit; advantage",
+"chinese": "益处；好处",
+"examples": [
+{
+"french": "Il suffit d'en manger un peu pour bénéficier des bienfaits du chocolat.",
+"english": "It is enough to eat a little to benefit from the advantages of chocolate."
+}
+],
+"tags": ["health"]
+},
+{
+"id": "2026-09-13-028",
+"dateAdded": "2026-09-13",
+"word": "quotidiennement",
+"gender": "adv",
+"english": "daily; on a daily basis",
+"chinese": "每日；天天",
+"examples": [
+{
+"french": "Il est recommandé de faire de l'exercice quotidiennement.",
+"english": "It is recommended to exercise on a daily basis."
+}
+],
+"tags": ["daily-life", "health"]
+},
+{
+"id": "2026-09-13-029",
+"dateAdded": "2026-09-13",
+"word": "diminuer",
+"gender": "v",
+"english": "to diminish; to decrease",
+"chinese": "减少；降低",
+"examples": [
+{
+"french": "Ce médicament permet de diminuer la tension artérielle.",
+"english": "This medication helps reduce blood pressure."
+}
+],
+"tags": ["health"]
+},
+{
+"id": "2026-09-13-030",
+"dateAdded": "2026-09-13",
+"word": "pilule",
+"gender": "f",
+"english": "pill; tablet",
+"chinese": "药丸；药片",
+"examples": [
+{
+"french": "Le médecin lui a prescrit une pilule à prendre chaque matin.",
+"english": "The doctor prescribed him a pill to take every morning."
+}
+],
+"tags": ["health"]
+},
+{
+"id": "2026-09-13-031",
+"dateAdded": "2026-09-13",
+"word": "traitement",
+"gender": "m",
+"english": "treatment",
+"chinese": "治疗；疗法",
+"examples": [
+{
+"french": "Il suit un traitement médical pour soulager sa douleur.",
+"english": "He is undergoing medical treatment to relieve his pain."
+}
+],
+"tags": ["health"]
+},
+{
+"id": "2026-09-13-032",
+"dateAdded": "2026-09-13",
+"word": "jumelle",
+"gender": "f",
+"english": "twin sister; binoculars",
+"chinese": "双胞胎姐妹；望远镜",
+"examples": [
+{
+"french": "Elle ressemble énormément à sa sœur jumelle.",
+"english": "She looks very much like her twin sister."
+}
+],
+"tags": ["family"]
+}
+]
