@@ -10,6 +10,7 @@ const state = {
   dailyCounts: {},
   currentIndex: 0,
   flipped: false,
+  activeTab: 'flashcards',
   chartSelection: {
     listening: 'all',
     reading: 'all',
@@ -111,13 +112,21 @@ function bindEvents() {
   });
 
   document.addEventListener('click', (event) => {
-    const toggle = event.target.closest('.level-toggle');
-    if (!toggle) return;
+    const levelToggle = event.target.closest('.level-toggle');
+    if (levelToggle) {
+      const skill = levelToggle.dataset.skill;
+      const level = levelToggle.dataset.level;
+      state.chartSelection[skill] = state.chartSelection[skill] === level ? 'all' : level;
+      renderDashboard();
+      return;
+    }
 
-    const skill = toggle.dataset.skill;
-    const level = toggle.dataset.level;
-    state.chartSelection[skill] = state.chartSelection[skill] === level ? 'all' : level;
-    renderDashboard();
+    const tabButton = event.target.closest('.tab-button');
+    if (tabButton) {
+      state.activeTab = tabButton.dataset.tab;
+      renderTabs();
+      return;
+    }
   });
 
   document.addEventListener('keydown', (event) => {
@@ -175,6 +184,16 @@ function bindEvents() {
 
     state.flipped = false;
     renderFlashcard();
+  });
+}
+
+function renderTabs() {
+  document.querySelectorAll('.tab-button').forEach((button) => {
+    button.classList.toggle('active', button.dataset.tab === state.activeTab);
+  });
+
+  document.querySelectorAll('.tab-panel').forEach((panel) => {
+    panel.classList.toggle('active', panel.id === `tab-${state.activeTab}`);
   });
 }
 
@@ -283,13 +302,10 @@ function renderFlashcard() {
   }
 
   const word = state.words[state.currentIndex];
-  const source = word.source ?? {};
-  const sourceLabel = source.type === 'listening' ? `🎧 Test ${source.test || 1} - Q${source.question || 1}` : `📖 Test ${source.test || 1} - Q${source.question || 1}`;
   const examples = Array.isArray(word.examples) ? word.examples : [];
 
   refs.cardFront.innerHTML = `
     <div class="card-header">
-      <span class="source-pill">${sourceLabel}</span>
       <span class="gender-tag">${word.gender ? word.gender.toUpperCase() : 'WORD'}</span>
     </div>
     <div class="word-title">${word.word}</div>
@@ -305,7 +321,6 @@ function renderFlashcard() {
 
   refs.cardBack.innerHTML = `
     <div class="card-header">
-      <span class="source-pill">${sourceLabel}</span>
       <span class="gender-tag">${word.gender ? word.gender.toUpperCase() : 'WORD'}</span>
     </div>
     <div class="translation-block">

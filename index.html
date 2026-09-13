@@ -30,7 +30,12 @@
       </header>
 
       <main class="layout">
-        <section class="panel flashcard-panel" aria-labelledby="flashcards-title">
+        <div class="tab-controls" aria-label="Primary tabs">
+          <button class="tab-button active" data-tab="flashcards" type="button">Flashcards</button>
+          <button class="tab-button" data-tab="summary" type="button">Summary</button>
+        </div>
+
+        <section id="tab-flashcards" class="tab-panel active panel flashcard-panel" aria-labelledby="flashcards-title">
           <div class="panel-header">
             <h2 id="flashcards-title">Flashcards</h2>
             <div class="panel-actions">
@@ -52,7 +57,7 @@
           </div>
         </section>
 
-        <section class="panel dashboard-panel" aria-labelledby="dashboard-title">
+        <section id="tab-summary" class="tab-panel panel dashboard-panel" aria-labelledby="dashboard-title">
           <div class="panel-header">
             <h2 id="dashboard-title">Study Dashboard</h2>
           </div>
