@@ -78,6 +78,7 @@ async function init() {
     state.dailyStats = dailyStats;
 
     bindEvents();
+    renderTabs();
     renderDashboard();
     renderFlashcard();
   } catch (error) {
