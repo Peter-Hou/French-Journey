@@ -12,12 +12,6 @@
         "english": "Hot and dry weather in southern Europe."
       }
     ],
-    "source": {
-      "raw": "src: l-t-5-q6",
-      "type": "listening",
-      "test": 5,
-      "question": 6
-    },
     "tags": ["weather"]
   },
   {
@@ -33,12 +27,6 @@
         "english": "The neighborhood is very noisy at night."
       }
     ],
-    "source": {
-      "raw": "src: r-t-2-q4",
-      "type": "reading",
-      "test": 2,
-      "question": 4
-    },
     "tags": ["city"]
   }
 ]

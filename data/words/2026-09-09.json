@@ -12,12 +12,6 @@
         "english": "They are happy after the good news."
       }
     ],
-    "source": {
-      "raw": "src: l-t-1-q5",
-      "type": "listening",
-      "test": 1,
-      "question": 5
-    },
     "tags": ["emotion"]
   },
   {
@@ -33,12 +27,6 @@
         "english": "The garden is very well maintained."
       }
     ],
-    "source": {
-      "raw": "src: r-t-3-q7",
-      "type": "reading",
-      "test": 3,
-      "question": 7
-    },
     "tags": ["home"]
   }
 ]

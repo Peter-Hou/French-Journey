@@ -12,12 +12,6 @@
         "english": "This city is very lively."
       }
     ],
-    "source": {
-      "raw": "src: l-t-3-q8",
-      "type": "listening",
-      "test": 3,
-      "question": 8
-    },
     "tags": ["travel"]
   },
   {
@@ -33,12 +27,6 @@
         "english": "A mild climate in winter."
       }
     ],
-    "source": {
-      "raw": "src: r-t-1-q2",
-      "type": "reading",
-      "test": 1,
-      "question": 2
-    },
     "tags": ["weather"]
   }
 ]

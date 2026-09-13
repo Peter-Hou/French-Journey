@@ -12,12 +12,6 @@
         "english": "The energy in the morning is excellent."
       }
     ],
-    "source": {
-      "raw": "src: l-t-2-q3",
-      "type": "listening",
-      "test": 2,
-      "question": 3
-    },
     "tags": ["nature"]
   },
   {
@@ -33,12 +27,6 @@
         "english": "I bought an electric car."
       }
     ],
-    "source": {
-      "raw": "src: r-t-4-q6",
-      "type": "reading",
-      "test": 4,
-      "question": 6
-    },
     "tags": ["transport"]
   }
 ]
