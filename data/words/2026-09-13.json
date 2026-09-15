@@ -49,7 +49,7 @@
 "dateAdded": "2026-09-13",
 "word": "un instant",
 "gender": "phrase",
-"english": "one moment; just a moment",
+"english": "one moment",
 "chinese": "稍等一下",
 "examples": [
 {
@@ -83,8 +83,8 @@
 "chinese": "希腊的",
 "examples": [
 {
-"french": "Nous allons dîner au restaurant grec ce soir.",
-"english": "We are going to have dinner at the Greek restaurant tonight."
+"french": "Nous allons au restaurant grec.",
+"english": "We are going to the Greek restaurant."
 }
 ],
 "tags": ["food", "travel"]
@@ -92,17 +92,17 @@
 {
 "id": "2026-09-13-007",
 "dateAdded": "2026-09-13",
-"word": "laisser quelqu'un sans nouvelles",
+"word": "laisser quelqu’un sans nouvelles",
 "gender": "phrase",
 "english": "to leave someone without news; to not contact someone for a while",
-"chinese": "断绝联系；很久不给某人信儿",
+"chinese": "不给某人信儿；断绝联络",
 "examples": [
 {
-"french": "Je suis désolée de t'avoir laissé sans nouvelles.",
+"french": "Je suis désolée de t’avoir laissé sans nouvelles.",
 "english": "I'm sorry for leaving you without news."
 }
 ],
-"tags": ["daily-life", "emotion"]
+"tags": ["emotion", "daily-life"]
 },
 {
 "id": "2026-09-13-008",
@@ -110,10 +110,10 @@
 "word": "se dérouler",
 "gender": "v",
 "english": "to unfold; to go/occur as planned",
-"chinese": "进行；展开；发生",
+"chinese": "进行；发生",
 "examples": [
 {
-"french": "Je pensais t'écrire de Fès, mais notre séjour ne s'est pas déroulé comme nous l'espérions.",
+"french": "Je pensais t’écrire de Fès, mais notre séjour ne s'est pas déroulé comme nous l’espérions.",
 "english": "I was planning to write to you from Fez, but our stay did not go as we had hoped."
 }
 ],
@@ -140,11 +140,11 @@
 "word": "régler",
 "gender": "v",
 "english": "to settle; to pay",
-"chinese": "支付；结清；解决",
+"chinese": "支付；结清",
 "examples": [
 {
-"french": "Nous devons régler les frais sur place.",
-"english": "We have to settle the fees on site."
+"french": "Nous devons aller sur place pour régler les frais.",
+"english": "We need to go there to settle the expenses."
 }
 ],
 "tags": ["daily-life"]
@@ -158,11 +158,11 @@
 "chinese": "费用；开销",
 "examples": [
 {
-"french": "Nous devons nous rendre à Marrakech pour régler les frais.",
-"english": "We have to travel to Marrakech to settle the expenses."
+"french": "Les frais de voyage sont remboursés par l'entreprise.",
+"english": "Travel expenses are reimbursed by the company."
 }
 ],
-"tags": ["daily-life", "travel"]
+"tags": ["daily-life"]
 },
 {
 "id": "2026-09-13-012",
@@ -200,7 +200,7 @@
 "word": "casser",
 "gender": "v",
 "english": "to break",
-"chinese": "打破；弄断",
+"chinese": "弄坏；打碎",
 "examples": [
 {
 "french": "J’ai cassé ma raquette pendant le match.",
@@ -215,11 +215,11 @@
 "word": "perdre",
 "gender": "v",
 "english": "to lose",
-"chinese": "丢失；失去",
+"chinese": "弄丢；失去",
 "examples": [
 {
-"french": "J’ai perdu mon maillot de bain à la plage.",
-"english": "I lost my swimsuit at the beach."
+"french": "J’ai perdu mon maillot à la piscine.",
+"english": "I lost my swimsuit at the pool."
 }
 ],
 "tags": ["daily-life"]
@@ -233,8 +233,8 @@
 "chinese": "泳衣；运动衫",
 "examples": [
 {
-"french": "N'oublie pas d'emporter ton maillot pour aller à la piscine.",
-"english": "Don't forget to pack your swimsuit to go to the pool."
+"french": "N'oublie pas d'emporter ton maillot pour aller à la plage.",
+"english": "Don't forget to pack your swimsuit for the beach."
 }
 ],
 "tags": ["clothing", "daily-life"]
@@ -244,12 +244,12 @@
 "dateAdded": "2026-09-13",
 "word": "ballon",
 "gender": "m",
-"english": "ball; balloon",
-"chinese": "球；气球",
+"english": "ball",
+"chinese": "球",
 "examples": [
 {
-"french": "Les enfants jouent avec un ballon dans le jardin.",
-"english": "The children are playing with a ball in the garden."
+"french": "Les enfants jouent avec un ballon dans le parc.",
+"english": "The children are playing with a ball in the park."
 }
 ],
 "tags": ["daily-life"]
@@ -263,7 +263,7 @@
 "chinese": "……部位疼痛",
 "examples": [
 {
-"french": "J'ai mal au ventre depuis ce matin.",
+"french": "J’ai mal au ventre depuis ce matin.",
 "english": "I have had a stomach ache since this morning."
 }
 ],
@@ -290,7 +290,7 @@
 "word": "enseigner",
 "gender": "v",
 "english": "to teach",
-"chinese": "教；教导",
+"chinese": "教导；教授",
 "examples": [
 {
 "french": "Les parents pourront dialoguer avec le personnel enseignant pendant cette journée.",
@@ -319,7 +319,7 @@
 "dateAdded": "2026-09-13",
 "word": "rayons du soleil",
 "gender": "phrase",
-"english": "sun's rays; sunlight",
+"english": "sunlight; sun's rays",
 "chinese": "太阳光线；紫外线",
 "examples": [
 {
@@ -338,8 +338,8 @@
 "chinese": "有效的；高效的",
 "examples": [
 {
-"french": "Les scientifiques affirment maintenant qu’une consommation de chocolat pourrait être une stratégie efficace de protection.",
-"english": "Scientists now claim that consuming chocolate could be an effective protection strategy."
+"french": "Les scientifiques affirment qu’une consommation de chocolat pourrait être une stratégie efficace de protection.",
+"english": "Scientists claim that chocolate consumption could be an effective protection strategy."
 }
 ],
 "tags": ["study", "daily-life"]
@@ -365,11 +365,11 @@
 "word": "chercheur",
 "gender": "m",
 "english": "researcher",
-"chinese": "研究人员；学者",
+"chinese": "研究人员",
 "examples": [
 {
-"french": "D’après les chercheurs, trois carrés de chocolat par jour suffiraient.",
-"english": "According to the researchers, three squares of chocolate a day would be enough."
+"french": "D’après les chercheurs, il suffirait de consommer trois carrés de chocolat par jour.",
+"english": "According to researchers, consuming three squares of chocolate a day would be enough."
 }
 ],
 "tags": ["study"]
@@ -383,7 +383,7 @@
 "chinese": "覆盖；涂满",
 "examples": [
 {
-"french": "Il n'est pas nécessaire de recouvrir son corps de cacao.",
+"french": "Il n’est pas nécessaire de recouvrir son corps de cacao.",
 "english": "It is not necessary to cover one's body in cocoa."
 }
 ],
@@ -398,8 +398,8 @@
 "chinese": "益处；好处",
 "examples": [
 {
-"french": "Il suffit d'en manger un peu pour bénéficier des bienfaits du chocolat.",
-"english": "It is enough to eat a little to benefit from the advantages of chocolate."
+"french": "On peut bénéficier des bienfaits du chocolat au quotidien.",
+"english": "One can benefit from the advantages of chocolate on a daily basis."
 }
 ],
 "tags": ["health"]
@@ -413,8 +413,8 @@
 "chinese": "每日；天天",
 "examples": [
 {
-"french": "Il est recommandé de faire de l'exercice quotidiennement.",
-"english": "It is recommended to exercise on a daily basis."
+"french": "Il est important de faire de l'exercice quotidiennement.",
+"english": "It is important to exercise daily."
 }
 ],
 "tags": ["daily-life", "health"]
@@ -424,12 +424,12 @@
 "dateAdded": "2026-09-13",
 "word": "diminuer",
 "gender": "v",
-"english": "to diminish; to decrease",
+"english": "to decrease; to diminish",
 "chinese": "减少；降低",
 "examples": [
 {
-"french": "Ce médicament permet de diminuer la tension artérielle.",
-"english": "This medication helps reduce blood pressure."
+"french": "Ce remède aide à diminuer le stress.",
+"english": "This remedy helps decrease stress."
 }
 ],
 "tags": ["health"]
@@ -443,8 +443,8 @@
 "chinese": "药丸；药片",
 "examples": [
 {
-"french": "Le médecin lui a prescrit une pilule à prendre chaque matin.",
-"english": "The doctor prescribed him a pill to take every morning."
+"french": "Il prend une pilule chaque matin pour son cœur.",
+"english": "He takes a pill every morning for his heart."
 }
 ],
 "tags": ["health"]
@@ -455,11 +455,11 @@
 "word": "traitement",
 "gender": "m",
 "english": "treatment",
-"chinese": "治疗；疗法",
+"chinese": "治疗；疗程",
 "examples": [
 {
-"french": "Il suit un traitement médical pour soulager sa douleur.",
-"english": "He is undergoing medical treatment to relieve his pain."
+"french": "Le médecin a prescrit un nouveau traitement pour sa toux.",
+"english": "The doctor prescribed a new treatment for his cough."
 }
 ],
 "tags": ["health"]
@@ -473,10 +473,310 @@
 "chinese": "双胞胎姐妹；望远镜",
 "examples": [
 {
-"french": "Elle ressemble énormément à sa sœur jumelle.",
-"english": "She looks very much like her twin sister."
+"french": "Elle ressemble comme deux gouttes d'eau à sa sœur jumelle.",
+"english": "She looks like two peas in a pod with her twin sister."
 }
 ],
 "tags": ["family"]
+},
+{
+"id": "2026-09-13-033",
+"dateAdded": "2026-09-13",
+"word": "mince alors",
+"gender": "phrase",
+"english": "darn it; oh no",
+"chinese": "哎呀；真糟糕",
+"examples": [
+{
+"french": "Mince alors ! J'ai oublié mes clés à la maison.",
+"english": "Darn it! I forgot my keys at home."
+}
+],
+"tags": ["emotion", "daily-life"]
+},
+{
+"id": "2026-09-13-034",
+"dateAdded": "2026-09-13",
+"word": "téléphone fixe",
+"gender": "m",
+"english": "landline phone",
+"chinese": "固定电话；座机",
+"examples": [
+{
+"french": "Est-ce que ton téléphone fixe marche encore ?",
+"english": "Does your landline phone still work?"
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-035",
+"dateAdded": "2026-09-13",
+"word": "marcher",
+"gender": "v",
+"english": "to walk; to work / function",
+"chinese": "运转；行走；起作用",
+"examples": [
+{
+"french": "Mince alors ! Et est-ce que ton téléphone fixe marche, au moins ?",
+"english": "Darn it! And does your landline phone work, at least?"
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-036",
+"dateAdded": "2026-09-13",
+"word": "au moins",
+"gender": "phrase",
+"english": "at least",
+"chinese": "至少；起码",
+"examples": [
+{
+"french": "Il est arrivé en retard, mais au moins il est venu.",
+"english": "He arrived late, but at least he came."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-037",
+"dateAdded": "2026-09-13",
+"word": "avoir besoin de",
+"gender": "phrase",
+"english": "to need",
+"chinese": "需要",
+"examples": [
+{
+"french": "Je n’en ai pas vraiment besoin.",
+"english": "I don't really need it."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-038",
+"dateAdded": "2026-09-13",
+"word": "neuf",
+"gender": "adj",
+"english": "brand-new; unused",
+"chinese": "崭新的；全新未用的",
+"examples": [
+{
+"french": "Il a acheté une voiture neuve hier.",
+"english": "He bought a brand-new car yesterday."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-039",
+"dateAdded": "2026-09-13",
+"word": "tout neuf",
+"gender": "phrase",
+"english": "brand-new",
+"chinese": "崭新的；崭新如初的",
+"examples": [
+{
+"french": "Je viens de m’acheter un ordinateur tout neuf, mais sans internet.",
+"english": "I just bought myself a brand-new computer, but without internet."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-040",
+"dateAdded": "2026-09-13",
+"word": "lycée",
+"gender": "m",
+"english": "high school",
+"chinese": "高中",
+"examples": [
+{
+"french": "Mon fils entre au lycée cette année.",
+"english": "My son is starting high school this year."
+}
+],
+"tags": ["study"]
+},
+{
+"id": "2026-09-13-041",
+"dateAdded": "2026-09-13",
+"word": "et pourtant",
+"gender": "phrase",
+"english": "and yet; however",
+"chinese": "然而；尽管如此",
+"examples": [
+{
+"french": "Et pourtant, quel chemin semé d’embûches !",
+"english": "And yet, what a path strewn with obstacles!"
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-042",
+"dateAdded": "2026-09-13",
+"word": "embûche",
+"gender": "f",
+"english": "pitfall; hurdle; obstacle",
+"chinese": "陷阱；障碍；荆棘",
+"examples": [
+{
+"french": "Son parcours professionnel a été plein d’embûches.",
+"english": "His career path was full of obstacles."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-043",
+"dateAdded": "2026-09-13",
+"word": "semé de",
+"gender": "phrase",
+"english": "strewn with; full of",
+"chinese": "布满……的；充满……的",
+"examples": [
+{
+"french": "La route du succès est souvent semée d’embûches.",
+"english": "The road to success is often strewn with obstacles."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-044",
+"dateAdded": "2026-09-13",
+"word": "en vue",
+"gender": "phrase",
+"english": "in sight; on the horizon",
+"chinese": "在望；看得见；有着落",
+"examples": [
+{
+"french": "Sept mois plus tard, toujours rien en vue.",
+"english": "Seven months later, still nothing in sight."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-045",
+"dateAdded": "2026-09-13",
+"word": "en poche",
+"gender": "phrase",
+"english": "in hand; under one's belt",
+"chinese": "手握（文凭等）；到手",
+"examples": [
+{
+"french": "Avec un diplôme en poche, il espère trouver un emploi rapidement.",
+"english": "With a diploma under his belt, he hopes to find a job quickly."
+}
+],
+"tags": ["study", "daily-life"]
+},
+{
+"id": "2026-09-13-046",
+"dateAdded": "2026-09-13",
+"word": "se retrouver",
+"gender": "v",
+"english": "to find oneself (in a situation); to end up",
+"chinese": "陷入某种处境；落得",
+"examples": [
+{
+"french": "À 26 ans, je me retrouve sans emploi.",
+"english": "At 26 years old, I find myself unemployed."
+}
+],
+"tags": ["daily-life", "emotion"]
+},
+{
+"id": "2026-09-13-047",
+"dateAdded": "2026-09-13",
+"word": "ailleurs",
+"gender": "adv",
+"english": "elsewhere",
+"chinese": "在别处",
+"examples": [
+{
+"french": "L’avenir ? Je le vois ailleurs, à l'étranger.",
+"english": "The future? I see it elsewhere, abroad."
+}
+],
+"tags": ["travel", "daily-life"]
+},
+{
+"id": "2026-09-13-048",
+"dateAdded": "2026-09-13",
+"word": "stage",
+"gender": "m",
+"english": "internship; training period",
+"chinese": "实习；培训期",
+"examples": [
+{
+"french": "Il effectue un stage de six mois dans une agence de communication.",
+"english": "He is doing a six-month internship at a communications agency."
+}
+],
+"tags": ["study", "daily-life"]
+},
+{
+"id": "2026-09-13-049",
+"dateAdded": "2026-09-13",
+"word": "décrocher",
+"gender": "v",
+"english": "to land; to win; to pick up (phone)",
+"chinese": "斩获；赢得；摘取",
+"examples": [
+{
+"french": "Elle a décroché son premier emploi juste après ses études.",
+"english": "She landed her first job right after her studies."
+}
+],
+"tags": ["study", "daily-life"]
+},
+{
+"id": "2026-09-13-050",
+"dateAdded": "2026-09-13",
+"word": "climatiseur",
+"gender": "m",
+"english": "air conditioner",
+"chinese": "空调；冷气机",
+"examples": [
+{
+"french": "Allume le climatiseur, il fait très chaud dans la pièce.",
+"english": "Turn on the air conditioner, it is very hot in the room."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-13-051",
+"dateAdded": "2026-09-13",
+"word": "vue",
+"gender": "f",
+"english": "view; sight",
+"chinese": "景观；视野；视力",
+"examples": [
+{
+"french": "Cet appartement offre une magnifique vue sur mer.",
+"english": "This apartment offers a magnificent sea view."
+}
+],
+"tags": ["daily-life", "travel"]
+},
+{
+"id": "2026-09-13-052",
+"dateAdded": "2026-09-13",
+"word": "vue sur mer",
+"gender": "phrase",
+"english": "sea view",
+"chinese": "海景",
+"examples": [
+{
+"french": "Nous cherchons une location avec cuisine et vue sur mer.",
+"english": "We are looking for a rental with a kitchen and sea view."
+}
+],
+"tags": ["travel", "daily-life"]
 }
 ]

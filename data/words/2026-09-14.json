@@ -1,0 +1,197 @@
+[
+{
+"id": "2026-09-14-001",
+"dateAdded": "2026-09-14",
+"word": "sourire",
+"gender": "v",
+"english": "to smile",
+"chinese": "微笑",
+"examples": [
+{
+"french": "Attention, souriez !",
+"english": "Watch out, smile!"
+}
+],
+"tags": ["daily-life", "emotion"]
+},
+{
+"id": "2026-09-14-002",
+"dateAdded": "2026-09-14",
+"word": "sourire",
+"gender": "m",
+"english": "smile",
+"chinese": "微笑；笑容",
+"examples": [
+{
+"french": "Fais un beau sourire pour la photo.",
+"english": "Give a nice smile for the photo."
+}
+],
+"tags": ["daily-life", "emotion"]
+},
+{
+"id": "2026-09-14-003",
+"dateAdded": "2026-09-14",
+"word": "se lever",
+"gender": "v",
+"english": "to get up; to stand up",
+"chinese": "站起来；起床",
+"examples": [
+{
+"french": "Levez-vous, s'il vous plaît.",
+"english": "Stand up, please."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-14-004",
+"dateAdded": "2026-09-14",
+"word": "paysage",
+"gender": "m",
+"english": "landscape; scenery",
+"chinese": "风景；景色；风景画",
+"examples": [
+{
+"french": "Regardez bien ce paysage.",
+"english": "Take a good look at this landscape."
+}
+],
+"tags": ["travel", "daily-life"]
+},
+{
+"id": "2026-09-14-005",
+"dateAdded": "2026-09-14",
+"word": "poser",
+"gender": "v",
+"english": "to put down; to place",
+"chinese": "放置；放下",
+"examples": [
+{
+"french": "Posez vos manteaux ici.",
+"english": "Put your coats here."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-14-006",
+"dateAdded": "2026-09-14",
+"word": "suivant",
+"gender": "adj",
+"english": "next; following",
+"chinese": "下一个的；接下来的",
+"examples": [
+{
+"french": "Passez dans la salle suivante.",
+"english": "Go to the next room."
+}
+],
+"tags": ["daily-life"]
+},
+{
+"id": "2026-09-14-007",
+"dateAdded": "2026-09-14",
+"word": "se dépêcher",
+"gender": "v",
+"english": "to hurry; to rush",
+"chinese": "赶紧；赶快",
+"examples": [
+{
+"french": "Dépêche-toi, le train va bientôt partir.",
+"english": "Hurry up, the train is going to leave soon."
+}
+],
+"tags": ["daily-life", "transport"]
+},
+{
+"id": "2026-09-14-008",
+"dateAdded": "2026-09-14",
+"word": "équipe",
+"gender": "f",
+"english": "team",
+"chinese": "队；团队",
+"examples": [
+{
+"french": "Les deux équipes ont très bien joué.",
+"english": "Both teams played very well."
+}
+],
+"tags": ["daily-life", "sports"]
+},
+{
+"id": "2026-09-14-009",
+"dateAdded": "2026-09-14",
+"word": "être en panne",
+"gender": "phrase",
+"english": "to be broken down; to be out of order",
+"chinese": "出故障；坏了",
+"examples": [
+{
+"french": "Quel est le problème avec la voiture ? — Elle est en panne.",
+"english": "What is the problem with the car? — It is broken down."
+}
+],
+"tags": ["transport", "daily-life"]
+},
+{
+"id": "2026-09-14-010",
+"dateAdded": "2026-09-14",
+"word": "comprendre",
+"gender": "v",
+"english": "to understand",
+"chinese": "理解；明白",
+"examples": [
+{
+"french": "J’ai bien compris la leçon.",
+"english": "I understood the lesson well."
+}
+],
+"tags": ["study", "daily-life"]
+},
+{
+"id": "2026-09-14-011",
+"dateAdded": "2026-09-14",
+"word": "démarrer",
+"gender": "v",
+"english": "to start up; to start",
+"chinese": "启动；打火",
+"examples": [
+{
+"french": "Vous avez compris qu’elle ne démarre pas.",
+"english": "You understood that it doesn't start."
+}
+],
+"tags": ["transport", "daily-life"]
+},
+{
+"id": "2026-09-14-012",
+"dateAdded": "2026-09-14",
+"word": "affaire",
+"gender": "f",
+"english": "deal; bargain; business",
+"chinese": "买卖；交易；实惠",
+"examples": [
+{
+"french": "À ce prix-là, c’est une bonne affaire.",
+"english": "At that price, it's a good deal."
+}
+],
+"tags": ["shopping", "daily-life"]
+},
+{
+"id": "2026-09-14-013",
+"dateAdded": "2026-09-14",
+"word": "incendier",
+"gender": "v",
+"english": "to set fire to; to burn down",
+"chinese": "烧毁；纵火",
+"examples": [
+{
+"french": "Le bâtiment a été complètement incendié.",
+"english": "The building was completely burned down."
+}
+],
+"tags": ["daily-life"]
+}
+]
